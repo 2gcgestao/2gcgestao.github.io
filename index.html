@@ -11,52 +11,60 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f4f6f8;
     color: #333;
+    line-height: 1.6;
 }
 header {
     background: #1f3c88;
     color: white;
-    padding: 40px 20px;
+    padding: 60px 20px;
     text-align: center;
 }
 header h1 {
     margin: 0;
-    font-size: 32px;
+    font-size: 36px;
 }
 header h2 {
     margin-top: 10px;
     font-weight: normal;
 }
+header p {
+    max-width: 800px;
+    margin: 20px auto 0;
+}
 section {
-    max-width: 1000px;
+    max-width: 1100px;
     margin: auto;
-    padding: 40px 20px;
+    padding: 50px 20px;
 }
 .section-title {
     color: #1f3c88;
-    font-size: 26px;
+    font-size: 28px;
     margin-bottom: 20px;
 }
-.services, .benefits {
+.grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
 }
 .card {
     background: white;
     padding: 25px;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+.highlight {
+    background: #ffffff;
 }
 .whatsapp {
     text-align: center;
     background: #25D366;
     color: white;
-    padding: 40px 20px;
+    padding: 60px 20px;
 }
 .whatsapp a {
     background: white;
     color: #25D366;
-    padding: 15px 25px;
+    padding: 16px 28px;
     border-radius: 30px;
     font-size: 18px;
     text-decoration: none;
@@ -66,7 +74,7 @@ footer {
     background: #1f3c88;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 25px;
     font-size: 14px;
 }
 </style>
@@ -77,23 +85,5 @@ footer {
 <header>
     <h1>2GC Gestão Condominial</h1>
     <h2>Síndico Profissional em Campinas</h2>
-    <p>Gestão moderna, transparente e focada em resultados</p>
-</header>
-
-<section>
-    <h3 class="section-title">Quem Somos</h3>
     <p>
-        A <strong>2GC Gestão Condominial</strong> atua com sindicância profissional,
-        oferecendo uma administração eficiente, ética e transparente para
-        condomínios de médio e alto padrão em Campinas e região.
-    </p>
-</section>
-
-<section>
-    <h3 class="section-title">Serviços</h3>
-    <div class="services">
-        <div class="card">✔ Síndico Profissional</div>
-        <div class="card">✔ Gestão Financeira e Orçamentária</div>
-        <div class="card">✔ Acompanhamento de Manutenções</div>
-        <div class="card">✔ Relacionamento com Moradores</div>
-        <div class="card">✔ Controle de Contratos e Fornecedores</div>
+        Gestão condominial profissional, estraté
